@@ -3,10 +3,42 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:VB6ResourceExtractor"
+        xmlns:vb6ResourceExtractor="clr-namespace:VB6ResourceExtractor"
+        d:DataContext="{d:DesignInstance Type=vb6ResourceExtractor:MainWindow, IsDesignTimeCreatable=True}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="VB6ResourceExtractor" Height="450" Width="800" FontSize="24" WindowStartupLocation="CenterScreen">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="15">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="5" />
+                </Style>
+            </StackPanel.Resources>
+            <Button Content="Open Binary" Click="BtnOpenBinary_OnClick" />
+            <Button Content="Save Image" Click="ButtonBase_OnClick" />
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <ListView FontSize="16" ItemsSource="{Binding ResourceItems, Mode=OneWay}"
+                      SelectionChanged="Selector_OnSelectionChanged" Name="ListResources">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="TypeName" DisplayMemberBinding="{Binding TypeName}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Image Grid.Column="1" Visibility="Hidden" Name="ImgImageObject" />
+            <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                          Visibility="Hidden" Name="ScrollTxtStringObject">
+                <TextBox IsReadOnly="True" Name="TxtStringObject" />
+            </ScrollViewer>
+        </Grid>
     </Grid>
 </Window>
