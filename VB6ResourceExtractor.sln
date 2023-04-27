@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB6ResourceExtractor", "VB6ResouceExtractor\VB6ResourceExtractor.csproj", "{A1F26CA6-7676-4292-8795-4A61E2E7D67F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VB6ResourceExtractor", "VB6ResourceExtractor\VB6ResourceExtractor.csproj", "{A1F26CA6-7676-4292-8795-4A61E2E7D67F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

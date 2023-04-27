@@ -10,16 +10,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="671a7787-8e24-4949-81cc-f7b14d94b2f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/VB6ResouceExtractor/ResourceItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VB6ResouceExtractor/ResourceType.cs" afterDir="false" />
+    <list default="true" id="671a7787-8e24-4949-81cc-f7b14d94b2f0" name="Changes" comment="chore: update .idea , because project name has been">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VB6ResouceExtractor/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VB6ResouceExtractor/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VB6ResourceExtractor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VB6ResourceExtractor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VB6ResouceExtractor/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/VB6ResouceExtractor/App.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VB6ResouceExtractor/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VB6ResouceExtractor/App.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VB6ResouceExtractor/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VB6ResouceExtractor/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VB6ResouceExtractor/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/VB6ResouceExtractor/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VB6ResouceExtractor/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/VB6ResouceExtractor/MainWindow.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VB6ResouceExtractor/VB6ResourceExtractor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/VB6ResouceExtractor/VB6ResourceExtractor.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +42,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -102,8 +97,8 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\charles\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\charles\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\charles\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache",
+      "C:\\Users\\charles\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache",
       "C:\\Users\\charles\\AppData\\Local\\Symbols\\src"
     ]
   }
@@ -138,6 +133,7 @@
       <updated>1681819104518</updated>
       <workItem from="1681819108688" duration="130000" />
       <workItem from="1681819620814" duration="107000" />
+      <workItem from="1682556918739" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="加入專案檔案。">
       <created>1681819630486</created>
@@ -146,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681819630486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: 完成基本版本&#10;&#10;目前只支援 .frx 類型">
+      <created>1682493953922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682493953922</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 完成基本版本&#10;&#10;目前只支援 .frx 類型">
+      <created>1682494067676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682494067676</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="加入專案檔案。" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入專案檔案。" />
+    <MESSAGE value="feat: 完成基本版本&#10;&#10;目前只支援 .frx 類型" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 完成基本版本&#10;&#10;目前只支援 .frx 類型" />
   </component>
 </project>
